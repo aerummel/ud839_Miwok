@@ -28,6 +28,29 @@
         <item name="android:padding">16dp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for a list_item image -->
+    <style name="ListItemImage">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">@dimen/list_item_height</item>
+        <item name="android:background">@color/tan_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for a list_item play icon -->
+    <style name="ListItemPlayIcon">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Style for list item text -->
+    <style name="ListItem">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:padding">16dp</item>
     </style>
 </resources>
